@@ -51,10 +51,10 @@ To set up the base host:
    - The provider configuration ( ``provider_config`` ) section refers to the cloud provider where the Contrail cluster will be hosted, and contains all parameters relevant to the provider. For bare metal servers, the provider is ``bms`` .
 
 
-   - The ``kolla_globals`` section refers to OpenStack services. For more information about all possible ``kolla_globals`` , see `https://github.com/Juniper/contrail-kolla-ansible/.../globals.yml`_  .
+   - The ``kolla_globals`` section refers to OpenStack services. For more information about all possible ``kolla_globals`` , see `https://github.com/tungstenfabric/tf-kolla-ansible/.../globals.yml`_  .
 
 
-   - Additional Kolla configurations ( ``contrail-kolla-ansible`` ) are possible as ``contrail_additions`` . For more information about all possible ``contrail_additions`` to Kolla, see `https://github.com/Juniper/contrail-kolla-ansible/.../all.yml`_  .
+   - Additional Kolla configurations ( ``contrail-kolla-ansible`` ) are possible as ``contrail_additions`` . For more information about all possible ``contrail_additions`` to Kolla, see `https://github.com/tungstenfabric/tf-kolla-ansible/.../all.yml`_  .
 
 
    - The ``contrail_configuration`` section contains parameters for Contrail services.
@@ -557,9 +557,9 @@ The following example shows how to run OpenStack commands in this way:
 
 .. _dependency: https://github.com/Juniper/contrail-ansible-deployer/wiki/Provisioning-F.A.Q#5-vrouter-module-is-not-getting-installed-on-the-computes-vrouter-container-in-error-state-and-docker-logs-show-the-error-like-this
 
-.. _https://github.com/Juniper/contrail-kolla-ansible/.../globals.yml: https://github.com/Juniper/contrail-kolla-ansible/blob/contrail/ocata/etc/kolla/globals.yml
+.. _https://github.com/tungstenfabric/tf-kolla-ansible/.../globals.yml: https://github.com/Juniper/contrail-kolla-ansible/blob/contrail/ocata/etc/kolla/globals.yml
 
-.. _https://github.com/Juniper/contrail-kolla-ansible/.../all.yml: https://github.com/Juniper/contrail-kolla-ansible/blob/contrail/ocata/ansible/group_vars/all.yml
+.. _https://github.com/tungstenfabric/tf-kolla-ansible/.../all.yml: https://github.com/Juniper/contrail-kolla-ansible/blob/contrail/ocata/ansible/group_vars/all.yml
 
 .. _https://github.com/Juniper/contrail-container-builder/.../common.sh: https://github.com/Juniper/contrail-container-builder/blob/master/containers/base/common.sh
 
