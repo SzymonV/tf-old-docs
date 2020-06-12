@@ -67,7 +67,7 @@ To set up the base host:
      -  ``CONTRAIL_VERSION`` , if not specified, will default to the "latest" tag. It is possible to specify a tag from nightly builds.
 
 
-     - For more information about all possible parameters for ``contrail_configuration`` , see `https://github.com/Juniper/contrail-container-builder/.../common.sh`_  .
+     - For more information about all possible parameters for ``contrail_configuration`` , see `https://github.com/tungstenfabric/tf-container-builder/.../common.sh`_  .
 
 
      - If “roles” is not specified, the following roles are assumed.
@@ -561,7 +561,7 @@ The following example shows how to run OpenStack commands in this way:
 
 .. _https://github.com/tungstenfabric/tf-kolla-ansible/.../all.yml: https://github.com/Juniper/contrail-kolla-ansible/blob/contrail/ocata/ansible/group_vars/all.yml
 
-.. _https://github.com/Juniper/contrail-container-builder/.../common.sh: https://github.com/Juniper/contrail-container-builder/blob/master/containers/base/common.sh
+.. _https://github.com/tungstenfabric/tf-container-builder/.../common.sh: https://github.com/Juniper/contrail-container-builder/blob/master/containers/base/common.sh
 
 .. _Configuration Sample for Multi Node OpenStack HA and Contrail (multi interface): https://github.com/Juniper/contrail-ansible-deployer/wiki/Configuration-Sample-for-Multi-Node-Openstack-HA-and-Contrail-(multi-interface)
 
